@@ -68,6 +68,11 @@ module.exports = {
                         method: 'GET',
                         description: '详情查询',
                     }, {
+                        uri: '/ipo-bapigateway/v1/sneaker/spu.json',
+                        name: '创建',
+                        method: 'POST',
+                        description: '创建',
+                    }, {
                         uri: '/ipo-bapigateway/v1/es/spu/id/index',
                         name: '手动索引',
                         method: 'POST',
@@ -103,6 +108,16 @@ module.exports = {
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
+                    }, {
+                        uri: '//ipo-bapigateway/v1/trade/sneaker/popular.json',
+                        name: '编辑推荐',
+                        method: 'POST',
+                        description: '编辑推荐'
+                    }, {
+                        uri: '/ipo-bapigateway/v1/trade/sneaker/popular/',
+                        name: '取消推荐',
+                        method: 'DELETE',
+                        description: '取消推荐'
                     }],
                 },
                 {

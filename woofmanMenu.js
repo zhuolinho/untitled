@@ -109,6 +109,11 @@ module.exports = {
                         method: 'GET',
                         description: '列表查询',
                     }, {
+                        uri: '//ipo-bapigateway/v1/es/spu/',
+                        name: '查看编辑',
+                        method: 'GET',
+                        description: '查看编辑'
+                    }, {
                         uri: '//ipo-bapigateway/v1/trade/sneaker/popular.json',
                         name: '编辑推荐',
                         method: 'POST',
@@ -194,6 +199,11 @@ module.exports = {
                         name: '详情查询',
                         method: 'GET',
                         description: '详情查询',
+                    }, {
+                        uri: '/ipo-bapigateway/common/v1/orders/export',
+                        name: '导出报表',
+                        method: 'GET',
+                        description: '导出报表',
                     }],
                 },
                 {
@@ -205,6 +215,11 @@ module.exports = {
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/order/',
+                        name: '详情查询',
+                        method: 'GET',
+                        description: '详情查询',
                     }],
                 },
                 {
@@ -212,20 +227,10 @@ module.exports = {
                     icon: '',
                     router: '/order/order/flawconfirming',
                     children: [{
-                        uri: '/ipo-bapigateway/v1/order/receiveExistFlaw',
-                        name: '列表查询',
-                        method: 'GET',
-                        description: '列表查询',
-                    }, {
-                        uri: '/ipo-bapigateway/v1/order/id/detail',
+                        uri: '//ipo-bapigateway/v1/order/',
                         name: '详情查询',
                         method: 'GET',
                         description: '详情查询',
-                    }, {
-                        uri: '/ipo-bapigateway/v1/process/order/version/2.0.0',
-                        name: '自由交易订单流程定义',
-                        method: 'GET',
-                        description: '自由交易订单流程定义',
                     }],
                 },
                 {
@@ -237,6 +242,21 @@ module.exports = {
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/evaluation/',
+                        name: '图鉴结果',
+                        method: 'GET',
+                        description: '图鉴结果',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/order//detail',
+                        name: '详情查询',
+                        method: 'GET',
+                        description: '详情查询',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/spu/',
+                        name: '实物鉴定',
+                        method: 'GET',
+                        description: '实物鉴定',
                     }],
                 },
                 {
@@ -265,6 +285,11 @@ module.exports = {
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/fake/',
+                        name: '详情查询',
+                        method: 'GET',
+                        description: '详情查询',
                     }],
                 },
                 {
@@ -276,6 +301,11 @@ module.exports = {
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
+                    }, {
+                        uri: '//ipo-bapigateway/v1/fake/',
+                        name: '详情查询',
+                        method: 'GET',
+                        description: '详情查询',
                     }],
                 },
                 {
@@ -287,6 +317,11 @@ module.exports = {
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/destroy/',
+                        name: '详情查询',
+                        method: 'GET',
+                        description: '详情查询',
                     }],
                 },
             ],
@@ -1017,4 +1052,5 @@ module.exports = {
             ],
         },
     ]
-};
+}
+;

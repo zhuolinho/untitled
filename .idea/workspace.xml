@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/woofmanMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="107" column="37" lean-forward="true" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
+            <state relative-caret-position="327">
+              <caret line="304" column="31" selection-start-line="304" selection-start-column="31" selection-end-line="304" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -28,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
+            <state relative-caret-position="498">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
@@ -49,11 +49,14 @@
     <findStrings>
       <find>ex</find>
       <find>options</find>
-      <find>/ipo-bapigateway/v1/es/spu/</find>
       <find>/ipo-bapigateway/v1/sneaker/spu.json</find>
       <find>商品管理</find>
       <find>/ipo-bapigateway/v1/trade/sneaker/popular/</find>
       <find>/ipo-bapigateway/v1/trade/sneaker/popular.json</find>
+      <find>/ipo-bapigateway/v1/es/spu/</find>
+      <find>/ipo-bapigateway/v1/es/spu/'</find>
+      <find>/ipo-bapigateway/v1/order/</find>
+      <find>//</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,17 +149,18 @@
       <workItem from="1551857454777" duration="443000" />
       <workItem from="1551867320802" duration="301000" />
       <workItem from="1551867657876" duration="692000" />
+      <workItem from="1551870259484" duration="3333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37355000" />
+    <option name="totallyTimeSpent" value="40688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -227,15 +231,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
+        <state relative-caret-position="498">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/woofmanMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="107" column="37" lean-forward="true" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
+        <state relative-caret-position="327">
+          <caret line="304" column="31" selection-start-line="304" selection-start-column="31" selection-end-line="304" selection-end-column="31" />
         </state>
       </provider>
     </entry>

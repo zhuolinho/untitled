@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24ca14aa-f4a4-4ca2-b40d-f19e396f9385" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/woofmanMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/woofmanMenu.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woofmanMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1086">
-              <caret line="383" column="21" selection-start-line="383" selection-start-column="19" selection-end-line="383" selection-end-column="21" />
-              <folding>
-                <element signature="e#10584#11157#0" />
-              </folding>
+            <state relative-caret-position="16005">
+              <caret line="1067" column="30" lean-forward="true" selection-start-line="1067" selection-start-column="30" selection-end-line="1067" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="555">
+              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
               <folding>
                 <element signature="e#1609#1634#0" />
               </folding>
@@ -42,8 +40,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="165">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!block;n#content#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,15 +180,16 @@
       <workItem from="1552013622069" duration="551000" />
       <workItem from="1553064719116" duration="72000" />
       <workItem from="1553237642398" duration="2131000" />
-      <workItem from="1553239847995" duration="2521000" />
+      <workItem from="1553239847995" duration="3702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48426000" />
+    <option name="totallyTimeSpent" value="49607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-847" width="1080" height="1897" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.39093485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -263,28 +265,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="555">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
           <folding>
             <element signature="e#1609#1634#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/woofmanMenu(2).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16140">
+          <caret line="1076" column="25" lean-forward="true" selection-end-line="1090" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/woofmanMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1086">
-          <caret line="383" column="21" selection-start-line="383" selection-start-column="19" selection-end-line="383" selection-end-column="21" />
-          <folding>
-            <element signature="e#10584#11157#0" />
-          </folding>
+        <state relative-caret-position="16005">
+          <caret line="1067" column="30" lean-forward="true" selection-start-line="1067" selection-start-column="30" selection-end-line="1067" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!block;n#content#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,7 +8,8 @@ let pro = Promise.resolve();
 const woofManMenu = require('./woofmanMenu');
 
 // contents(woofManMenu);
-menus(woofManMenu);
+// menus(woofManMenu);
+// resources(woofManMenu);
 
 function contents(data) {
     data.menus.forEach(function (element, index) {
@@ -54,6 +55,42 @@ function menus(data) {
             });
         }
     })
+}
+
+function resources(data) {
+    const arr = {};
+    data.menus.forEach(function (obj) {
+        obj.children.forEach(function (obj) {
+            arr[obj.name] = {children: obj.children};
+        })
+    });
+    get(host + searchPath).then(function (result) {
+        JSON.parse(result).data.data[2].children.forEach(function (obj) {
+            obj.children.forEach(function (obj) {
+                arr[obj.name].id = obj.id;
+            })
+        });
+        return arr;
+    }).then(function (result) {
+        for (let key in result) {
+            result[key].children.forEach(function (child, index) {
+                pro = pro.then(function () {
+                    return post(host + postPath, {
+                        "routeId": "0d97b129-bce9-4749-8ebf-44e667438a41",
+                        "serviceId": "f5c5ba0e-a9e4-4e8b-8935-e55e429b0852",
+                        "name": child.name,
+                        "parentId": result[key].id,
+                        "sort": index,
+                        "isMenu": 0,
+                        "isAuth": 1,
+                        "method": child.method,
+                        "upstreamPath": child.uri,
+                        "description": "3"
+                    })
+                })
+            });
+        }
+    });
 }
 
 function get(url) {

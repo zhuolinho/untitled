@@ -339,6 +339,11 @@ module.exports = {
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
+                    }, {
+                        uri: '//ipo-bapigateway/v1/returnp/',
+                        name: '详情查询',
+                        method: 'GET',
+                        description: '详情查询',
                     }],
                 },
                 {
@@ -355,11 +360,6 @@ module.exports = {
                         name: '详情查询',
                         method: 'GET',
                         description: '详情查询',
-                    }, {
-                        uri: '/ipo-bapigateway/v1/returnp/id/platSend.json',
-                        name: '退货',
-                        method: 'POST',
-                        description: '退货',
                     }],
                 },
             ],
@@ -1052,5 +1052,4 @@ module.exports = {
             ],
         },
     ]
-}
-;
+};

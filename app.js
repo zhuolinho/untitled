@@ -7,15 +7,10 @@ let pro = Promise.resolve();
 
 const woofManMenu = require('./woofmanMenu');
 
-content(woofManMenu);
+// contents(woofManMenu);
+menus(woofManMenu);
 
-// get(host + searchPath).then(function (result) {
-//     console.log(result)
-// }).catch(function (err) {
-//     console.error(err)
-// });
-
-function content(data) {
+function contents(data) {
     data.menus.forEach(function (element, index) {
         pro = pro.then(function () {
             return post(host + postPath, {
@@ -28,6 +23,36 @@ function content(data) {
                 "description": "1"
             })
         })
+    })
+}
+
+function menus(data) {
+    const arr = {};
+    data.menus.forEach(function (obj) {
+        arr[obj.name] = {children: obj.children};
+    });
+
+    get(host + searchPath).then(function (result) {
+        JSON.parse(result).data.data[2].children.forEach(function (obj) {
+            arr[obj.name].id = obj.id;
+        });
+        return arr
+    }).then(function (result) {
+        for (let key in result) {
+            result[key].children.forEach(function (child, index) {
+                pro = pro.then(function () {
+                    return post(host + postPath, {
+                        "name": child.name,
+                        "parentId": result[key].id,
+                        "sort": index,
+                        "isMenu": 1,
+                        "isAuth": 0,
+                        "upstreamPath": JSON.stringify({uri: child.router}),
+                        "description": "2"
+                    })
+                })
+            });
+        }
     })
 }
 

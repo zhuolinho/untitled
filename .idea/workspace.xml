@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24ca14aa-f4a4-4ca2-b40d-f19e396f9385" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woofmanMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/woofmanMenu.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,14 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woofmanMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="1047" column="30" selection-start-line="1047" selection-start-column="24" selection-end-line="1047" selection-end-column="30" />
+            <state relative-caret-position="101">
+              <caret line="185" column="18" selection-start-line="185" selection-start-column="12" selection-end-line="185" selection-end-column="18" />
               <folding>
-                <element signature="e#7140#10439#0" />
-                <element signature="e#10566#12389#0" />
                 <element signature="e#10584#11157#0" />
               </folding>
             </state>
@@ -33,11 +31,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
+            <state relative-caret-position="615">
+              <caret line="41" column="18" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="41" selection-end-column="18" />
               <folding>
                 <element signature="e#1609#1634#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -48,8 +55,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,6 +77,7 @@
       <find>ipo-bapigateway/v1/returnp/'</find>
       <find>ipo-bapigateway/v1/</find>
       <find>method</find>
+      <find>conso</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,13 +92,15 @@
         <option value="$PROJECT_DIR$/home.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/woofmanMenu.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="27" />
-    <option name="width" value="1680" />
-    <option name="height" value="947" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1676" />
+    <option name="y" value="-830" />
+    <option name="width" value="1081" />
+    <option name="height" value="1865" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -167,18 +177,19 @@
       <workItem from="1551959300366" duration="1283000" />
       <workItem from="1552013622069" duration="551000" />
       <workItem from="1553064719116" duration="72000" />
-      <workItem from="1553237642398" duration="561000" />
+      <workItem from="1553237642398" duration="2131000" />
+      <workItem from="1553239847995" duration="549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44335000" />
+    <option name="totallyTimeSpent" value="46454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1680" height="947" extended-state="0" />
+    <frame x="1680" y="-847" width="1080" height="1897" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.39093485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -190,7 +201,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32748538" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36620498" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -250,25 +261,30 @@
     <entry file="file://$USER_HOME$/Downloads/woofmanMenu.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="18" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <element signature="e#1609#1634#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/woofmanMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="1047" column="30" selection-start-line="1047" selection-start-column="24" selection-end-line="1047" selection-end-column="30" />
+        <state relative-caret-position="101">
+          <caret line="185" column="18" selection-start-line="185" selection-start-column="12" selection-end-line="185" selection-end-column="18" />
           <folding>
-            <element signature="e#7140#10439#0" />
-            <element signature="e#10566#12389#0" />
             <element signature="e#10584#11157#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
-          <folding>
-            <element signature="e#1609#1634#0" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
         </state>
       </provider>
     </entry>

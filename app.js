@@ -2,21 +2,22 @@ const request = require('request');
 const host = 'https://backend.dev.fashionipo.com';
 const searchPath = '/backend-user-server/v1/resource/search?size=10000';
 const postPath = '/backend-user-server/v1/resource/add-resource';
-const token = 'vlKsJ7luCJ3zh_mlo4nxsLSn8EAFg4dQ9kuoDYNGG1hgYFtjY02YBZp1v22HR6k17ZabZne99_cWaRKuZQNZa1KctpayVCWz9NfronreASbOSH1HMdGodBZbuobx64YcZUGnj91x1muduOCf1L916GuaWfbCQ8__g-dQ6aPevpo=';
+const token = '6d8e16f2-0608-4459-938d-a032fb93f163';
 let pro = Promise.resolve();
 
-const woofManMenu = require('./woofmanMenu');
+// const woofManMenu = require('./woofmanMenu');
+const actmanMenu = require('./actmanMenu');
 
-// contents(woofManMenu);
-// menus(woofManMenu);
-// resources(woofManMenu);
+// contents(actmanMenu);
+// menus(actmanMenu);
+resources(actmanMenu);
 
 function contents(data) {
     data.menus.forEach(function (element, index) {
         pro = pro.then(function () {
             return post(host + postPath, {
                 "name": element.name,
-                "parentId": 4,
+                "parentId": 249,
                 "sort": index,
                 "isMenu": 1,
                 "isAuth": 0,
@@ -34,7 +35,7 @@ function menus(data) {
     });
 
     get(host + searchPath).then(function (result) {
-        JSON.parse(result).data.data[2].children.forEach(function (obj) {
+        JSON.parse(result).data.data[3].children.forEach(function (obj) {
             arr[obj.name].id = obj.id;
         });
         return arr
@@ -65,7 +66,7 @@ function resources(data) {
         })
     });
     get(host + searchPath).then(function (result) {
-        JSON.parse(result).data.data[2].children.forEach(function (obj) {
+        JSON.parse(result).data.data[3].children.forEach(function (obj) {
             obj.children.forEach(function (obj) {
                 arr[obj.name].id = obj.id;
             })

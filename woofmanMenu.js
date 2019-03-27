@@ -525,7 +525,7 @@ module.exports = {
                     }, {
                         uri: '/ipo-bapigateway/v1/yjgCoupon/id',
                         name: '删除',
-                        method: '',
+                        method: 'DELETE',
                         description: '删除',
                     }]
                 },
@@ -534,24 +534,14 @@ module.exports = {
                     icon: '',
                     router: '/market/presale/list',
                     children: [{
-                        uri: '/ipo-bapigateway/v1/preSellSpu',
-                        name: '列表查询',
-                        method: 'GET',
-                        description: '列表查询',
-                    }, {
                         uri: '/ipo-bapigateway/v1/preSellSpuAll.json',
                         name: '插入',
                         method: 'POST',
                         description: '插入',
                     }, {
                         uri: '/ipo-bapigateway/v1/preSellSpuAll.json',
-                        name: '创建',
-                        method: 'POST',
-                        description: '创建',
-                    }, {
-                        uri: '/ipo-bapigateway/v1/preSellSpuAll.json',
                         name: '删除',
-                        method: '',
+                        method: 'DELETE',
                         description: '删除预售管理',
                     }]
                 },
@@ -572,7 +562,7 @@ module.exports = {
                     }, {
                         uri: '/ipo-bapigateway/v1/notification/push/all.json',
                         name: '群发给所有人',
-                        method: '',
+                        method: 'POST',
                         description: '群发给所有人',
                     }]
                 },
@@ -590,6 +580,16 @@ module.exports = {
                         name: '更新',
                         method: 'POST',
                         description: '更新',
+                    }, {
+                        uri: 'ipo-bapigateway/v1/caccount/id/disable',
+                        name: '禁用',
+                        method: 'POST',
+                        description: '禁用',
+                    }, {
+                        uri: 'ipo-bapigateway/v1/caccount/id/enable',
+                        name: '启用',
+                        method: 'POST',
+                        description: '启用',
                     }]
                 },
                 {

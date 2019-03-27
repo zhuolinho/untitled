@@ -160,6 +160,11 @@ module.exports = {
                         name: '结束活动',
                         method: 'POST',
                         description: '结束活动',
+                    }, {
+                        uri: '/js-bapigateway/v1/activity/id',
+                        name: '详情查询',
+                        method: 'GET',
+                        description: '详情查询',
                     }]
                 }, {
                     name: '活动管理',

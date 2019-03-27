@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24ca14aa-f4a4-4ca2-b40d-f19e396f9385" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actmanMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/actmanMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/woofmanMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/woofmanMenu.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,35 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codewars.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/actmanMenu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storemanMenu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="404" column="31" lean-forward="true" selection-start-line="404" selection-start-column="31" selection-end-line="404" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -55,8 +28,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woofmanMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="504" column="30" lean-forward="true" selection-start-line="504" selection-start-column="30" selection-end-line="504" selection-end-column="30" />
+            <state relative-caret-position="557">
+              <caret line="881" column="22" selection-start-line="881" selection-start-column="22" selection-end-line="881" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/actmanMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1242">
+              <caret line="119" column="39" lean-forward="true" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -93,15 +75,15 @@
       <find>/js-bapigateway/v1/activity.json</find>
       <find>/ipo-bapigateway/v1/preSellSpuAll.json</find>
       <find>method: ''</find>
-      <find>method</find>
-      <find>conso</find>
       <find>有药活动</find>
       <find>有药活动管理</find>
       <find>workorder/return/list</find>
-      <find>ec-bapigateway/v1/refundOrder</find>
-      <find>ipo-bapigateway/common/v1/marketing/ipoActivity/concepts/export</find>
       <find>//ipo-bapigateway/v1/preSellSpuAll.json</find>
       <find>method: '</find>
+      <find>ec-bapigateway/v1/refundOrder</find>
+      <find>conso</find>
+      <find>ipo-bapigateway/common/v1/marketing/ipoActivity/concepts/export</find>
+      <find>method</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,12 +97,12 @@
         <option value="$PROJECT_DIR$/home.ts" />
         <option value="$PROJECT_DIR$/home.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/codewars.js" />
-        <option value="$PROJECT_DIR$/woofmanMenu.js" />
         <option value="$PROJECT_DIR$/storemanMenu.js" />
         <option value="$USER_HOME$/Downloads/actmanMenu(1).js" />
         <option value="$PROJECT_DIR$/actmanMenu.js" />
+        <option value="$PROJECT_DIR$/woofmanMenu.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -211,12 +193,12 @@
       <workItem from="1553494276650" duration="1225000" />
       <workItem from="1553582053139" duration="13239000" />
       <workItem from="1553653438549" duration="3469000" />
-      <workItem from="1553657620517" duration="12990000" />
+      <workItem from="1553657620517" duration="14078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83944000" />
+    <option name="totallyTimeSpent" value="85032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-847" width="1080" height="1897" extended-state="6" />
@@ -234,7 +216,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16565096" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16565096" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -302,24 +284,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$USER_HOME$/Downloads/actmanMenu(1).js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codewars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woofmanMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="504" column="30" lean-forward="true" selection-start-line="504" selection-start-column="30" selection-end-line="504" selection-end-column="30" />
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-line="244" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -330,17 +298,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/actmanMenu(1).js">
+    <entry file="file://$PROJECT_DIR$/codewars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-line="244" selection-end-column="4" />
+        <state relative-caret-position="190">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/woofmanMenu(1).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1083" selection-end-column="3" />
+          <folding>
+            <element signature="e#11#30304#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woofmanMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="881" column="22" selection-start-line="881" selection-start-column="22" selection-end-line="881" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/actmanMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
+        <state relative-caret-position="1242">
+          <caret line="119" column="39" lean-forward="true" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
         </state>
       </provider>
     </entry>

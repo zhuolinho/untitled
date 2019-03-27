@@ -12,7 +12,7 @@ let pro = Promise.resolve();
 
 // contents(storemanMenu);
 // menus(storemanMenu);
-resources(storemanMenu);
+// resources(woofManMenu);
 
 function contents(data) {
     data.menus.forEach(function (element, index) {
@@ -68,7 +68,7 @@ function resources(data) {
         })
     });
     get(host + searchPath).then(function (result) {
-        JSON.parse(result).data.data[3].children.forEach(function (obj) {
+        JSON.parse(result).data.data[1].children.forEach(function (obj) {
             obj.children.forEach(function (obj) {
                 arr[obj.name].id = obj.id;
             })
@@ -79,8 +79,8 @@ function resources(data) {
             result[key].children.forEach(function (child, index) {
                 pro = pro.then(function () {
                     return post(host + postPath, {
-                        "routeId": "95d9dc00-9a86-4456-bf8b-2f872d682137",
-                        "serviceId": "d2369c25-44e6-4eb4-8a7b-9cc06fa99224",
+                        "routeId": "0d97b129-bce9-4749-8ebf-44e667438a41",
+                        "serviceId": "f5c5ba0e-a9e4-4e8b-8935-e55e429b0852",
                         "name": child.name,
                         "parentId": result[key].id,
                         "sort": index,

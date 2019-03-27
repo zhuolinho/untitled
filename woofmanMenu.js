@@ -73,11 +73,6 @@ module.exports = {
                         method: 'POST',
                         description: '创建',
                     }, {
-                        uri: '/ipo-bapigateway/v1/es/spu/id/index',
-                        name: '手动索引',
-                        method: 'POST',
-                        description: '手动索引',
-                    }, {
                         uri: '/ipo-bapigateway/v1/spu/sneaker/id.json',
                         name: '更新',
                         method: 'POST',
@@ -121,7 +116,7 @@ module.exports = {
                     }]
                 },
                 {
-                    name: '发售日历',//待
+                    name: '发售日历',
                     icon: '',
                     router: '/product/calendar',
                     children: [{
@@ -263,6 +258,11 @@ module.exports = {
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/order/sendWaitList',
+                        name: '详情查询',
+                        method: 'GET',
+                        description: '详情查询',
                     }]
                 },
             ],
@@ -396,9 +396,9 @@ module.exports = {
                     router: '/market/banner/list',
                     children: [{
                         uri: '/ipo-bapigateway/v1/banner/id.json',
-                        name: '更新',
+                        name: '详情查询',
                         method: 'POST',
-                        description: '更新',
+                        description: '详情查询',
                     }, {
                         uri: '/ipo-bapigateway/v1/banner/',
                         name: '删除',
@@ -457,9 +457,9 @@ module.exports = {
                         description: '创建',
                     }, {
                         uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/canView/true',
-                        name: '可见',
+                        name: '更新',
                         method: 'POST',
-                        description: '可见',
+                        description: '更新',
                     }, {
                         uri: '/ipo-bapigateway/v1/marketing/winnerPublish/id.json',
                         name: '颁布中奖',
@@ -493,9 +493,9 @@ module.exports = {
                         description: '推送通知',
                     }, {
                         uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/canView/',
-                        name: '可见',
+                        name: '更新',
                         method: 'POST',
-                        description: '可见',
+                        description: '更新',
                     }, {
                         uri: '/ipo-bapigateway/v1/marketing/winnerPublish/id.json',
                         name: '颁布中奖',
@@ -523,15 +523,10 @@ module.exports = {
                         method: 'POST',
                         description: '创建',
                     }, {
-                        uri: '',
+                        uri: '/ipo-bapigateway/v1/yjgCoupon/id',
                         name: '删除',
                         method: '',
                         description: '删除',
-                    }, {
-                        uri: '',
-                        name: '插入',
-                        method: '',
-                        description: '插入',
                     }]
                 },
                 {
@@ -544,9 +539,9 @@ module.exports = {
                         method: 'GET',
                         description: '列表查询',
                     }, {
-                        uri: '',
+                        uri: '/ipo-bapigateway/v1/preSellSpuAll.json',
                         name: '插入',
-                        method: '',
+                        method: 'POST',
                         description: '插入',
                     }, {
                         uri: '/ipo-bapigateway/v1/preSellSpuAll.json',
@@ -554,7 +549,7 @@ module.exports = {
                         method: 'POST',
                         description: '创建',
                     }, {
-                        uri: '',
+                        uri: '/ipo-bapigateway/v1/preSellSpuAll.json',
                         name: '删除',
                         method: '',
                         description: '删除预售管理',
@@ -575,7 +570,7 @@ module.exports = {
                         method: 'POST',
                         description: '发送给指定用户',
                     }, {
-                        uri: '',
+                        uri: '/ipo-bapigateway/v1/notification/push/all.json',
                         name: '群发给所有人',
                         method: '',
                         description: '群发给所有人',
@@ -592,9 +587,9 @@ module.exports = {
                         description: '列表查询',
                     }, {
                         uri: '/ipo-bapigateway/v1/caccount/id/',
-                        name: '启用',
+                        name: '更新',
                         method: 'POST',
-                        description: '启用',
+                        description: '更新',
                     }]
                 },
                 {
@@ -650,7 +645,7 @@ module.exports = {
                         method: 'GET',
                         description: '列表查询',
                     }, {
-                        uri: '',
+                        uri: '/ipo-bapigateway/v1/orders',
                         name: '详情查询',
                         method: 'GET',
                         description: '详情查询',

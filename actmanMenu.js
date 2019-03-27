@@ -40,10 +40,10 @@ module.exports = {
                         method: 'POST',
                         description: '导出报表',
                     }, {
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/canView/true',
-                        name: '可见',
+                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/canView/',
+                        name: '更新',
                         method: 'POST',
-                        description: '可见',
+                        description: '更新',
                     }, {
                         uri: '/ipo-bapigateway/v1/activity/id/stocks',
                         name: '查看编辑库存',
@@ -80,10 +80,10 @@ module.exports = {
                         method: '',
                         description: '导出报表',
                     }, {
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/canView/false',
-                        name: '不可见',
+                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/canView/',
+                        name: '更新',
                         method: 'POST',
-                        description: '不可见',
+                        description: '更新',
                     }]
                 }, {
                     name: '预售管理',
@@ -141,10 +141,10 @@ module.exports = {
                         method: 'POST',
                         description: '创建',
                     }, {
-                        uri: '/js-bapigateway/v1/activity/view/id/true',
-                        name: '可见',
+                        uri: '/js-bapigateway/v1/activity/view/id/',
+                        name: '更新',
                         method: 'POST',
-                        description: '可见',
+                        description: '更新',
                     }, {
                         uri: '/js-bapigateway/v1/activity/end/id',
                         name: '结束活动',
@@ -166,10 +166,10 @@ module.exports = {
                         method: 'POST',
                         description: '创建',
                     }, {
-                        uri: '/js-bapigateway/v1/activity/view/id/true',
-                        name: '可见',
+                        uri: '/js-bapigateway/v1/activity/view/id/',
+                        name: '更新',
                         method: 'POST',
-                        description: '可见',
+                        description: '更新',
                     }, {
                         uri: '/js-bapigateway/v1/activity/end/',
                         name: '结束活动',

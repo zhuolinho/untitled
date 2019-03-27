@@ -12,6 +12,12 @@ function slidePuzzle(arr) {
     return tree;
 }
 
+function branch(arr) {
+    const values = [];
+
+    return values;
+}
+
 function makeObj(arr, parent, path) {
     if (solute(arr)) {
         return false;

@@ -2,22 +2,24 @@ const request = require('request');
 const host = 'https://backend.dev.fashionipo.com';
 const searchPath = '/backend-user-server/v1/resource/search?size=10000';
 const postPath = '/backend-user-server/v1/resource/add-resource';
-const token = '6d8e16f2-0608-4459-938d-a032fb93f163';
+const token = '9b4b70ff-480c-48a0-ab8a-e3150f727ce8';
 let pro = Promise.resolve();
 
 // const woofManMenu = require('./woofmanMenu');
-const actmanMenu = require('./actmanMenu');
+// const actmanMenu = require('./actmanMenu');
+// const storemanMenu = require('./storemanMenu');
 
-// contents(actmanMenu);
-// menus(actmanMenu);
-resources(actmanMenu);
+
+// contents(storemanMenu);
+// menus(storemanMenu);
+resources(storemanMenu);
 
 function contents(data) {
     data.menus.forEach(function (element, index) {
         pro = pro.then(function () {
             return post(host + postPath, {
                 "name": element.name,
-                "parentId": 249,
+                "parentId": 308,
                 "sort": index,
                 "isMenu": 1,
                 "isAuth": 0,
@@ -77,8 +79,8 @@ function resources(data) {
             result[key].children.forEach(function (child, index) {
                 pro = pro.then(function () {
                     return post(host + postPath, {
-                        "routeId": "0d97b129-bce9-4749-8ebf-44e667438a41",
-                        "serviceId": "f5c5ba0e-a9e4-4e8b-8935-e55e429b0852",
+                        "routeId": "95d9dc00-9a86-4456-bf8b-2f872d682137",
+                        "serviceId": "d2369c25-44e6-4eb4-8a7b-9cc06fa99224",
                         "name": child.name,
                         "parentId": result[key].id,
                         "sort": index,

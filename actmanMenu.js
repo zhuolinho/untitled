@@ -77,7 +77,7 @@ module.exports = {
                     }, {
                         uri: '//ipo-bapigateway/common/v1/marketing/ipoActivity/concepts/export',
                         name: '导出报表',
-                        method: '',
+                        method: 'GET',
                         description: '导出报表',
                     }, {
                         uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/canView/',
@@ -95,9 +95,9 @@ module.exports = {
                         method: 'GET',
                         description: '列表查询',
                     }, {
-                        uri: '',
+                        uri: 'ipo-bapigateway/v1/preSellSpuAll.json',
                         name: '插入',
-                        method: '',
+                        method: 'POST',
                         description: '插入',
                     }, {
                         uri: '//ipo-bapigateway/v1/preSellSpuAll.json',
@@ -119,6 +119,16 @@ module.exports = {
                         name: '创建',
                         method: 'POST',
                         description: '创建',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/activity/gallery/id.json',
+                        name: '详情查询',
+                        method: 'POST',
+                        description: '详情查询',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/activity/gallery/id',
+                        name: '删除',
+                        method: 'DETELE',
+                        description: '删除'
                     }]
                 }]
         }, {
@@ -156,17 +166,17 @@ module.exports = {
                     icon: '',
                     router: '/activity/mangement/list',
                     children: [{
-                        uri: '/js-bapigateway/v1/activity',
+                        uri: 'js-bapigateway/v1/activity',
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
                     }, {
-                        uri: '/js-bapigateway/v1/activity.json',
+                        uri: 'js-bapigateway/v1/activity.json',
                         name: '创建',
                         method: 'POST',
                         description: '创建',
                     }, {
-                        uri: '/js-bapigateway/v1/activity/view/id/',
+                        uri: 'js-bapigateway/v1/activity/view/id/',
                         name: '更新',
                         method: 'POST',
                         description: '更新',

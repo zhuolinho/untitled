@@ -10,27 +10,27 @@ module.exports = {
                     icon: '',
                     router: '/market/activity/list',
                     children: [{
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivities',
+                        uri: 'ipo-bapigateway/v1/marketing/ipoActivities',
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
                     }, {
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity.json',
+                        uri: 'ipo-bapigateway/v1/marketing/ipoActivity.json',
                         name: '创建',
                         method: 'POST',
                         description: '创建',
                     }, {
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/',
+                        uri: 'ipo-bapigateway/v1/marketing/ipoActivity/',
                         name: '编辑查询',
                         method: 'GET',
                         description: '编辑查询',
                     }, {
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/change/',
+                        uri: 'ipo-bapigateway/v1/marketing/ipoActivity/change/',
                         name: '设为入口',
                         method: 'GET',
                         description: '设为入口',
                     }, {
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/sendResult.json',
+                        uri: 'ipo-bapigateway/v1/marketing/ipoActivity/id/sendResult.json',
                         name: '推送通知',
                         method: 'POST',
                         description: '推送通知',
@@ -40,12 +40,12 @@ module.exports = {
                         method: 'POST',
                         description: '导出报表',
                     }, {
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/canView/',
+                        uri: 'ipo-bapigateway/v1/marketing/ipoActivity/id/canView/',
                         name: '更新',
                         method: 'POST',
                         description: '更新',
                     }, {
-                        uri: '/ipo-bapigateway/v1/activity/id/stocks',
+                        uri: 'ipo-bapigateway/v1/activity/id/stocks',
                         name: '查看编辑库存',
                         method: 'GET',
                         description: '查看编辑库存',
@@ -55,27 +55,27 @@ module.exports = {
                     icon: '',
                     router: '/market/conceptactivity/list',
                     children: [{
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivities',
+                        uri: '//ipo-bapigateway/v1/marketing/ipoActivities',
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
                     }, {
-                        uri: '/ipo-bapigateway/v1/marketing/conceptsIpoActivity.json',
+                        uri: '//ipo-bapigateway/v1/marketing/conceptsIpoActivity.json',
                         name: '创建',
                         method: 'POST',
                         description: '创建',
                     }, {
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/',
+                        uri: '//ipo-bapigateway/v1/marketing/ipoActivity/',
                         name: '编辑查询',
                         method: 'GET',
                         description: '编辑查询',
                     }, {
-                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/prizeNotice.json',
+                        uri: '//ipo-bapigateway/v1/marketing/ipoActivity/id/prizeNotice.json',
                         name: '推送通知',
                         method: 'POST',
                         description: '推送通知',
                     }, {
-                        uri: '/ipo-bapigateway/common/v1/marketing/ipoActivity/concepts/export',
+                        uri: '//ipo-bapigateway/common/v1/marketing/ipoActivity/concepts/export',
                         name: '导出报表',
                         method: '',
                         description: '导出报表',
@@ -90,7 +90,7 @@ module.exports = {
                     icon: '',
                     router: '/market/presale/list',
                     children: [{
-                        uri: '/ipo-bapigateway/v1/preSellSpu',
+                        uri: '//ipo-bapigateway/v1/preSellSpu',
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
@@ -100,14 +100,14 @@ module.exports = {
                         method: '',
                         description: '插入',
                     }, {
-                        uri: '/ipo-bapigateway/v1/preSellSpuAll.json',
+                        uri: '//ipo-bapigateway/v1/preSellSpuAll.json',
                         name: '创建',
                         method: 'POST',
                         description: '创建',
                     }, {
-                        uri: '',
+                        uri: '/ipo-bapigateway/v1/preSellSpuAll.json',
                         name: '删除',
-                        method: '',
+                        method: 'DELETE',
                         description: '删除预售管理',
                     }]
                 }, {

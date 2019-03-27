@@ -396,12 +396,12 @@ module.exports = {
                     icon: '',
                     router: '/workorder/return/list',
                     children: [{
-                        uri: '/ec-bapigateway/v1/refundOrder',
+                        uri: 'ec-bapigateway/v1/refundOrder',
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
                     }, {
-                        uri: '/ec-bapigateway/v1/refundOrder/id',
+                        uri: 'ec-bapigateway/v1/refundOrder/id',
                         name: '详情查询',
                         method: 'GET',
                         description: '详情查询'

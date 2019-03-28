@@ -543,6 +543,11 @@ module.exports = {
                         name: '删除',
                         method: 'DELETE',
                         description: '删除预售管理',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/preSellSpuAll.json?create',
+                        name: '创建',
+                        method: 'POST',
+                        description: '创建',
                     }]
                 },
                 {
@@ -1055,6 +1060,11 @@ module.exports = {
                         name: '详情查询',
                         method: 'GET',
                         description: '详情查询'
+                    }, {
+                        uri: 'ipo-bapigateway/v1/financialReconciliation/count',
+                        name: '打印',
+                        method: 'GET',
+                        description: '打印'
                     }]
                 },
             ],
@@ -1077,6 +1087,11 @@ module.exports = {
                         name: '更新',
                         method: 'POST',
                         description: '更新'
+                    }, {
+                        uri: 'ipo-bapigateway/v1/user/create.json',
+                        name: '创建',
+                        method: 'POST',
+                        description: '创建'
                     }]
                 },
             ],

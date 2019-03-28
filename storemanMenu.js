@@ -349,12 +349,12 @@ module.exports = {
                     icon: '',
                     router: '/workorder/order/list',
                     children: [{
-                        uri: '/ec-bapigateway/v1/orders',
+                        uri: 'ec-bapigateway/v1/orders',
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
                     }, {
-                        uri: '/ec-bapigateway/v1/order/id',
+                        uri: 'ec-bapigateway/v1/order/id',
                         name: '详情查询',
                         method: 'GET',
                         description: '详情查询'
@@ -375,12 +375,12 @@ module.exports = {
                     icon: '',
                     router: '/workorder/delivery/list',
                     children: [{
-                        uri: '/ec-bapigateway/v1/orderDeliverys',
+                        uri: 'ec-bapigateway/v1/orderDeliverys',
                         name: '列表查询',
                         method: 'GET',
                         description: '列表查询',
                     }, {
-                        uri: '/ec-bapigateway/v1/orderDelivery/id',
+                        uri: 'ec-bapigateway/v1/orderDelivery/id',
                         name: '详情查询',
                         method: 'GET',
                         description: '详情查询'

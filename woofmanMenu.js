@@ -472,21 +472,21 @@ module.exports = {
                     icon: '',
                     router: '/market/conceptactivity/list',
                     children: [{
-                    //     uri: '/ipo-bapigateway/v1/marketing/ipoActivities',
-                    //     name: '列表查询',
-                    //     method: 'GET',
-                    //     description: '列表查询',
-                    // }, {
+                        uri: '/ipo-bapigateway/v1/marketing/ipoActivities?list',
+                        name: '列表查询',
+                        method: 'GET',
+                        description: '列表查询',
+                    }, {
                         uri: '/ipo-bapigateway/v1/marketing/conceptsIpoActivity.json',
                         name: '创建',
                         method: 'POST',
                         description: '创建',
                     }, {
-                    //     uri: '/ipo-bapigateway/v1/marketing/ipoActivity/',
-                    //     name: '详情查询',
-                    //     method: 'GET',
-                    //     description: '详情查询',
-                    // }, {
+                        uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id',
+                        name: '详情查询',
+                        method: 'GET',
+                        description: '详情查询',
+                    }, {
                         uri: '/ipo-bapigateway/v1/marketing/ipoActivity/id/prizeNotice.json',
                         name: '推送通知',
                         method: 'POST',
@@ -539,7 +539,7 @@ module.exports = {
                         method: 'POST',
                         description: '插入',
                     }, {
-                        uri: '/ipo-bapigateway/v1/preSellSpuAll.json',
+                        uri: 'ipo-bapigateway/v1/preSellSpuAll.json',
                         name: '删除',
                         method: 'DELETE',
                         description: '删除预售管理',
@@ -773,11 +773,11 @@ module.exports = {
                         name: '编辑权重',
                         method: 'POST',
                         description: '编辑权重'
-                    // }, {
-                    //     uri: '/ipo-bapigateway/v1/columnUpdate/id.json',
-                    //     name: '取消关联',
-                    //     method: 'POST',
-                    //     description: '取消关联'
+                    }, {
+                        uri: '/ipo-bapigateway/v1/columnUpdate/id.json?cancel',
+                        name: '取消关联',
+                        method: 'POST',
+                        description: '取消关联'
                     }]
                 },
                 {

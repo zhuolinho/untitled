@@ -49,6 +49,11 @@ module.exports = {
                         name: '查看编辑库存',
                         method: 'GET',
                         description: '查看编辑库存',
+                    }, {
+                        uri: '//ipo-bapigateway/v1/marketing/winnerPublish/id.json',
+                        name: '颁布中奖',
+                        method: 'GET',
+                        description: '颁布中奖',
                     }]
                 }, {
                     name: 'concepts活动管理',
@@ -84,6 +89,11 @@ module.exports = {
                         name: '更新',
                         method: 'POST',
                         description: '更新',
+                    }, {
+                        uri: '/ipo-bapigateway/v1/marketing/winnerPublish/id.json?publish',
+                        name: '颁布中奖',
+                        method: 'GET',
+                        description: '颁布中奖',
                     }]
                 }, {
                     name: '预售管理',
@@ -190,6 +200,11 @@ module.exports = {
                         name: '结束活动',
                         method: 'POST',
                         description: '结束活动',
+                    }, {
+                        uri: '/js-bapigateway/v1/activity/',
+                        name: '详情查询',
+                        method: 'GET',
+                        description: '详情查询',
                     }]
                 }, {
                     name: '任务管理',

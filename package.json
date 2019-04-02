@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "request": "^2.88.0",
+    "sliding-puzzle-solver": "0.0.2",
     "typescript": "^3.2.4"
   }
 }

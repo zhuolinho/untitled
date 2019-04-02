@@ -1,6 +1,7 @@
 function slidePuzzle(arr) {
     const tree = [];
     const path = [];
+    const hash = {};
     tree.push(makeObj(arr, -1));
 
     for (let index = 0; ; index++) {
@@ -8,11 +9,16 @@ function slidePuzzle(arr) {
         let i = 0;
 
         for (; i < tmp.length; i++) {
-            const obj = makeObj(tmp[i].value, index, tmp[i].path);
-            if (obj) {
-                tree.push(obj)
-            } else {
-                break;
+            const value = tmp[i].value;
+            if (!hash[value]) {
+                const obj = makeObj(value, index, tmp[i].path);
+                if (obj) {
+                    console.log(tree.length);
+                    tree.push(obj);
+                } else {
+                    break;
+                }
+                hash[value] = true;
             }
         }
 
@@ -23,7 +29,6 @@ function slidePuzzle(arr) {
             }
             break;
         }
-        console.log(tree.length)
     }
 
     return path;
@@ -31,21 +36,21 @@ function slidePuzzle(arr) {
 
 function branch(arr) {
     const values = [];
-    const {i, j, x, y} = find0(arr);
+    const { i, j, x, y } = find0(arr);
     if (i !== 0) {
-        values.push({value: swap(arr, i - 1, j, i, j), path: arr[i - 1][j]});
+        values.push({ value: swap(arr, i - 1, j, i, j), path: arr[i - 1][j] });
     }
 
     if (j !== 0) {
-        values.push({value: swap(arr, i, j - 1, i, j), path: arr[i][j - 1]});
+        values.push({ value: swap(arr, i, j - 1, i, j), path: arr[i][j - 1] });
     }
 
     if (i !== x) {
-        values.push({value: swap(arr, i + 1, j, i, j), path: arr[i + 1][j]});
+        values.push({ value: swap(arr, i + 1, j, i, j), path: arr[i + 1][j] });
     }
 
     if (j !== y) {
-        values.push({value: swap(arr, i, j + 1, i, j), path: arr[i][j + 1]});
+        values.push({ value: swap(arr, i, j + 1, i, j), path: arr[i][j + 1] });
     }
 
     return values;
@@ -55,7 +60,7 @@ function makeObj(arr, parent, path) {
     if (solute(arr)) {
         return false;
     } else {
-        return {value: arr, parent, path};
+        return { value: arr, parent, path };
     }
 }
 
@@ -63,7 +68,7 @@ function find0(arr) {
     for (let i = 0; i < arr.length; i++) {
         for (let j = 0; j < arr[i].length; j++) {
             if (!arr[i][j]) {
-                return {i, j, x: arr.length - 1, y: arr[i].length - 1};
+                return { i, j, x: arr.length - 1, y: arr[i].length - 1 };
             }
         }
     }
@@ -98,10 +103,11 @@ function solute(arr) {
     return true;
 }
 
-let puzzle1 = [
-    [4, 1, 3],
-    [2, 8, 0],
-    [7, 6, 5]
+let puzzle2 = [
+	[10, 3, 6, 4],
+	[ 1, 5, 8, 0],
+	[ 2,13, 7,15],
+	[14, 9,12,11]
 ];
 
-console.log(slidePuzzle(puzzle1));
+console.log(slidePuzzle(puzzle2));
